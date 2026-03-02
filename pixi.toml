@@ -28,9 +28,10 @@ python = "3.12.*"
 uv = ">=0.8.13,<0.9"
 
 [feature.cu130.target.linux-64.dependencies]
-# pixi add cuda-version=13.0 cuda-toolkit=13.0.0 -p linux-64 -f cu130
-# cuda-version = "13.0.*"
-# cuda-toolkit = "13.0.0.*"
+# CONDA_OVERRIDE_CUDA=13.0 pixi add cuda-version=13.0 cuda-toolkit=13.0.0 -p linux-64 -f cu130
+cuda-version = "13.0.*"
+cuda-toolkit = "13.0.0.*"
+# TODO: install torch
 # CONDA_OVERRIDE_CUDA=13.0 pixi add cusparselt pytorch-gpu=2.9.1 -p linux-64 -f cu130
 
 [environments]
