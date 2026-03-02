@@ -3,3 +3,5 @@
 !.pixi/config.toml
 
 *.whl
+/vllm/
+/*.dist-info
