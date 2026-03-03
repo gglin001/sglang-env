@@ -177,6 +177,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/cxx-compiler-1.11.0-hfcd1e18_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/dbus-1.16.2-h24cb091_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/exceptiongroup-1.3.1-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/fd-find-10.3.0-hdab8a38_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/filelock-3.25.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/fmt-12.1.0-hff5e90c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/font-ttf-dejavu-sans-mono-2.37-hab24e00_0.tar.bz2
@@ -325,6 +326,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/readline-8.3-h853b02a_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/requests-2.32.5-pyhcf101f3_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/rich-14.3.3-pyhcf101f3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/ripgrep-15.1.0-hdab8a38_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-82.0.0-pyh332efcf_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/shellingham-1.5.4-pyhd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/six-1.17.0-pyhe01879c_1.conda
@@ -1293,6 +1295,18 @@ packages:
   license: MIT and PSF-2.0
   size: 21333
   timestamp: 1763918099466
+- conda: https://conda.anaconda.org/conda-forge/linux-64/fd-find-10.3.0-hdab8a38_0.conda
+  sha256: 55d3011ca72e1d97acc651b2af5d4d4d785988a8cfa9026205e9cf11f2d4ee67
+  md5: 1b8aaa7bb23496abb0e23369db7fb5b7
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=14
+  constrains:
+  - __glibc >=2.17
+  license: MIT
+  license_family: MIT
+  size: 1209421
+  timestamp: 1757336717570
 - conda: https://conda.anaconda.org/conda-forge/noarch/filelock-3.25.0-pyhd8ed1ab_0.conda
   sha256: 55162ec0ff4e22d8f762b3e774f08f79f234ba37ab5e64d7a1421ed9216a222c
   md5: 49a92015e912176999ae81bea11ea778
@@ -3530,6 +3544,18 @@ packages:
   license_family: MIT
   size: 208472
   timestamp: 1771572730357
+- conda: https://conda.anaconda.org/conda-forge/linux-64/ripgrep-15.1.0-hdab8a38_0.conda
+  sha256: a745b0d0ca5ae53757e42d893a61a5034ed2ad4791728e376dbc5c6a4f9c3eb0
+  md5: 1f9739b74aab91a4c9c7aea7a6987dbb
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=14
+  constrains:
+  - __glibc >=2.17
+  license: MIT
+  license_family: MIT
+  size: 1737412
+  timestamp: 1761210874723
 - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-82.0.0-pyh332efcf_0.conda
   sha256: fd7201e38e38bf7f25818d624ca8da97b8998957ca9ae3fb7fdc9c17e6b25fcd
   md5: 1d00d46c634177fc8ede8b99d6089239
