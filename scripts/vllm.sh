@@ -17,3 +17,5 @@ BASE_URL="https://wheels.vllm.ai/nightly/"
 
 # cu129 eg:
 # curl -O -L https://wheels.vllm.ai/3a6cbf16e27e164e81ac2259fe211cd930adf48f/vllm-0.16.1rc1.dev171%2Bg3a6cbf16e-cp38-abi3-manylinux_2_31_x86_64.whl
+# cu130 eg:
+# curl -O -L https://wheels.vllm.ai/3a6cbf16e27e164e81ac2259fe211cd930adf48f/vllm-0.16.1rc1.dev171%2Bg3a6cbf16e.cu130-cp38-abi3-manylinux_2_35_x86_64.whl

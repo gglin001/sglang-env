@@ -173,7 +173,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/cuda-tools-12.9.1-ha770c72_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/cuda-version-12.9-h4f385c5_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/cuda-visual-tools-12.9.1-ha770c72_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/cudnn-9.10.2.21-hbcb9cd8_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/cxx-compiler-1.11.0-hfcd1e18_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/dbus-1.16.2-h24cb091_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/exceptiongroup-1.3.1-pyhd8ed1ab_0.conda
@@ -220,7 +219,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libcublas-12.9.1.4-h676940d_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libcublas-dev-12.9.1.4-h676940d_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libcudnn-9.10.2.21-hf7e9902_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/libcudnn-dev-9.10.2.21-h58dd1b1_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libcudss-0.7.1.4-h58dd1b1_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libcufft-11.4.1.4-hecca717_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libcufft-dev-11.4.1.4-hecca717_1.conda
@@ -278,7 +276,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/libstdcxx-devel_linux-64-14.3.0-h9f08a49_118.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-ng-15.2.0-hdf11a46_18.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libsystemd0-257.10-hd0affe5_4.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/libtorch-2.9.1-cuda129_mkl_hf3b6726_305.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libtorch-2.10.0-cuda129_mkl_hd6d2a1f_303.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libudev1-257.10-hd0affe5_4.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libuuid-2.41.3-h5347b49_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libuv-1.51.0-hb03c661_1.conda
@@ -290,13 +288,13 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/llvm-openmp-22.1.0-h4922eb0_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/markdown-it-py-4.0.0-pyhd8ed1ab_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/markupsafe-3.0.3-py312h8a5da7c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/markupsafe-3.0.3-py312h8a5da7c_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/mdurl-0.1.2-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/mkl-2025.3.0-h0e700b2_463.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/modelscope-1.34.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/mpc-1.3.1-h24ddda3_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/mpfr-4.2.1-h90cbb55_3.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/mpmath-1.4.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mpmath-1.3.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/nccl-2.29.3.1-h4d09622_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/networkx-3.6.1-pyhcf101f3_0.conda
@@ -311,16 +309,15 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/packaging-26.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pcre2-10.47-haa7fec5_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pthread-stubs-0.4-hb9d3cd8_1002.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/pybind11-3.0.2-pyh7a1b43c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pybind11-3.0.1-pyh7a1b43c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pybind11-abi-11-hc364b38_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/pybind11-global-3.0.2-pyhc7ab6ef_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pybind11-global-3.0.1-pyhc7ab6ef_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pygments-2.19.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pysocks-1.7.1-pyha55dd90_7.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/python-3.12.12-hd63d673_2_cpython.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-gil-3.12.12-hd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.12-8_cp312.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/pytorch-2.9.1-cuda129_mkl_py312_h44d881b_305.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/pytorch-gpu-2.9.1-cuda129_mkl_h0d04637_305.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/pytorch-2.10.0-cuda129_mkl_py312_h9ac99b3_303.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pyyaml-6.0.3-py312h8a5da7c_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/rdma-core-61.0-h192683f_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/readline-8.3-h853b02a_0.conda
@@ -337,12 +334,13 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/tbb-2022.3.0-h8d10470_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_h366c992_103.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tqdm-4.67.3-pyh8f84b5b_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/triton-3.5.1-cuda129py312h811769c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/triton-3.6.0-cuda129py312h811769c_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/typer-0.24.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/typer-slim-0.24.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/typing-extensions-4.15.0-h396c80c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/typing_extensions-4.15.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025c-hc9c84f9_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/unzip-6.0-hb03c661_4.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/urllib3-2.6.3-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/uv-0.8.24-h30787bc_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/wayland-1.24.0-hd6090a7_1.conda
@@ -1248,20 +1246,6 @@ packages:
   license: LicenseRef-NVIDIA-End-User-License-Agreement
   size: 20379
   timestamp: 1749246979827
-- conda: https://conda.anaconda.org/conda-forge/linux-64/cudnn-9.10.2.21-hbcb9cd8_0.conda
-  sha256: 5760ad9de2ecff210b018503168d26996497604608cf59f93df90f01ea4eb982
-  md5: c8168e26c0a9f50425ac05d6a5201c12
-  depends:
-  - __glibc >=2.28,<3.0.a0
-  - cuda-version >=12,<13.0a0
-  - libcudnn-dev 9.10.2.21 h58dd1b1_0
-  - libgcc >=14
-  - libstdcxx >=14
-  constrains:
-  - cudnn-jit <0a
-  license: LicenseRef-cuDNN-Software-License-Agreement
-  size: 19646
-  timestamp: 1762823905292
 - conda: https://conda.anaconda.org/conda-forge/linux-64/cxx-compiler-1.11.0-hfcd1e18_0.conda
   sha256: 3fcc97ae3e89c150401a50a4de58794ffc67b1ed0e1851468fcc376980201e25
   md5: 5da8c935dca9186673987f79cef0b2a5
@@ -1856,20 +1840,6 @@ packages:
   license: LicenseRef-cuDNN-Software-License-Agreement
   size: 329927632
   timestamp: 1770222415966
-- conda: https://conda.anaconda.org/conda-forge/linux-64/libcudnn-dev-9.10.2.21-h58dd1b1_0.conda
-  sha256: e9fef18b943a8181427734bc9fada8a594e3a8391fa2a8d59d980acfe1c2cf04
-  md5: 7d7a47d067261531c3089dcec326d6fa
-  depends:
-  - __glibc >=2.28,<3.0.a0
-  - cuda-version >=12,<13.0a0
-  - libcudnn 9.10.2.21 hf7e9902_0
-  - libgcc >=14
-  - libstdcxx >=14
-  constrains:
-  - libcudnn-jit-dev <0a
-  license: LicenseRef-cuDNN-Software-License-Agreement
-  size: 44188
-  timestamp: 1762823889020
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libcudss-0.7.1.4-h58dd1b1_1.conda
   sha256: 6f2b115c72ea3dc28626f0dbc43d9d5a2e1b391fcca5750750e6f0eafbf8f79c
   md5: c5b8ea827c65e5811d61aa49cd0bae9a
@@ -2665,6 +2635,50 @@ packages:
   license: LGPL-2.1-or-later
   size: 491953
   timestamp: 1770738638119
+- conda: https://conda.anaconda.org/conda-forge/linux-64/libtorch-2.10.0-cuda129_mkl_hd6d2a1f_303.conda
+  sha256: 6e6a0d47573bf30ccbab013ba89c00b80fbe8bf86d07aaa7f96e040f98b77e69
+  md5: 5b8a8672aca66f3871aab4d0d1a8f796
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - _openmp_mutex * *_llvm
+  - _openmp_mutex >=4.5
+  - cuda-cudart >=12.9.79,<13.0a0
+  - cuda-cupti >=12.9.79,<13.0a0
+  - cuda-nvrtc >=12.9.86,<13.0a0
+  - cuda-nvtx >=12.9.79,<13.0a0
+  - cuda-version >=12.9,<13
+  - fmt >=12.1.0,<12.2.0a0
+  - libabseil * cxx17*
+  - libabseil >=20260107.1,<20260108.0a0
+  - libblas * *mkl
+  - libcblas >=3.11.0,<4.0a0
+  - libcublas >=12.9.1.4,<13.0a0
+  - libcudnn >=9.10.2.21,<10.0a0
+  - libcudss >=0.7.1.4,<0.7.2.0a0
+  - libcufft >=11.4.1.4,<12.0a0
+  - libcufile >=1.14.1.1,<2.0a0
+  - libcurand >=10.3.10.19,<11.0a0
+  - libcusolver >=11.7.5.82,<12.0a0
+  - libcusparse >=12.5.10.65,<13.0a0
+  - libgcc >=14
+  - libmagma >=2.9.0,<2.9.1.0a0
+  - libprotobuf >=6.33.5,<6.33.6.0a0
+  - libstdcxx >=14
+  - libuv >=1.51.0,<2.0a0
+  - libzlib >=1.3.1,<2.0a0
+  - llvm-openmp >=22.1.0
+  - mkl >=2025.3.0,<2026.0a0
+  - nccl >=2.29.3.1,<3.0a0
+  - pybind11-abi 11
+  - sleef >=3.9.0,<4.0a0
+  constrains:
+  - pytorch-gpu 2.10.0
+  - pytorch 2.10.0 cuda129_mkl_*_303
+  - pytorch-cpu <0.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 815008753
+  timestamp: 1772308092686
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libtorch-2.10.0-cuda130_mkl_hb2e6204_303.conda
   sha256: a9cedb62ea683d6446a72d6f03af60462870d70d7ad3eb68ccd1d505ebd1bb2d
   md5: 638f651bebabee410207b804afc84f30
@@ -2709,50 +2723,6 @@ packages:
   license_family: BSD
   size: 487186668
   timestamp: 1772223626192
-- conda: https://conda.anaconda.org/conda-forge/linux-64/libtorch-2.9.1-cuda129_mkl_hf3b6726_305.conda
-  sha256: bfa445e13734a0fd9c42a51ffa0716fb13c2dc4562201121c0890e553e3bb518
-  md5: 606ad37b534f787257023a619d2de1d1
-  depends:
-  - __glibc >=2.17,<3.0.a0
-  - _openmp_mutex * *_llvm
-  - _openmp_mutex >=4.5
-  - cuda-cudart >=12.9.79,<13.0a0
-  - cuda-cupti >=12.9.79,<13.0a0
-  - cuda-nvrtc >=12.9.86,<13.0a0
-  - cuda-nvtx >=12.9.79,<13.0a0
-  - cuda-version >=12.9,<13
-  - cudnn >=9.10.2.21,<10.0a0
-  - fmt >=12.1.0,<12.2.0a0
-  - libabseil * cxx17*
-  - libabseil >=20260107.0,<20260108.0a0
-  - libblas * *mkl
-  - libcblas >=3.11.0,<4.0a0
-  - libcublas >=12.9.1.4,<13.0a0
-  - libcudss >=0.7.1.4,<0.7.2.0a0
-  - libcufft >=11.4.1.4,<12.0a0
-  - libcufile >=1.14.1.1,<2.0a0
-  - libcurand >=10.3.10.19,<11.0a0
-  - libcusolver >=11.7.5.82,<12.0a0
-  - libcusparse >=12.5.10.65,<13.0a0
-  - libgcc >=14
-  - libmagma >=2.9.0,<2.9.1.0a0
-  - libprotobuf >=6.33.5,<6.33.6.0a0
-  - libstdcxx >=14
-  - libuv >=1.51.0,<2.0a0
-  - libzlib >=1.3.1,<2.0a0
-  - llvm-openmp >=21.1.8
-  - mkl >=2025.3.0,<2026.0a0
-  - nccl >=2.29.2.1,<3.0a0
-  - pybind11-abi 11
-  - sleef >=3.9.0,<4.0a0
-  constrains:
-  - pytorch-cpu <0.0a0
-  - pytorch-gpu 2.9.1
-  - pytorch 2.9.1 cuda129_mkl_*_305
-  license: BSD-3-Clause
-  license_family: BSD
-  size: 884857503
-  timestamp: 1770366398502
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libudev1-257.10-hd0affe5_4.conda
   sha256: ed4d2c01fbeb1330f112f7e399408634db277d3dfb2dec1d0395f56feaa24351
   md5: 6c74fba677b61a0842cbf0f63eee683b
@@ -2921,6 +2891,20 @@ packages:
   license_family: BSD
   size: 25321
   timestamp: 1759055268795
+- conda: https://conda.anaconda.org/conda-forge/linux-64/markupsafe-3.0.3-py312h8a5da7c_1.conda
+  sha256: 5f3aad1f3a685ed0b591faad335957dbdb1b73abfd6fc731a0d42718e0653b33
+  md5: 93a4752d42b12943a355b682ee43285b
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=14
+  - python >=3.12,<3.13.0a0
+  - python_abi 3.12.* *_cp312
+  constrains:
+  - jinja2 >=3.0.0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 26057
+  timestamp: 1772445297924
 - conda: https://conda.anaconda.org/conda-forge/noarch/mdurl-0.1.2-pyhd8ed1ab_1.conda
   sha256: 78c1bbe1723449c52b7a9df1af2ee5f005209f67e40b6e1d3c7619127c43b1c7
   md5: 592132998493b3ff25fd7479396e8351
@@ -2990,15 +2974,6 @@ packages:
   license_family: BSD
   size: 439705
   timestamp: 1733302781386
-- conda: https://conda.anaconda.org/conda-forge/noarch/mpmath-1.4.0-pyhd8ed1ab_0.conda
-  sha256: 0f6f76159c40af2c7ae483934513e27a9e4137364ec717c1d69511dd4bbc6a68
-  md5: 74149a38e723261f9f61bddd69e90022
-  depends:
-  - python >=3.10
-  license: BSD-3-Clause
-  license_family: BSD
-  size: 464419
-  timestamp: 1771870721583
 - conda: https://conda.anaconda.org/conda-forge/linux-64/nccl-2.29.3.1-h4d09622_0.conda
   sha256: 632765e3c32166c16e1ed2c85b79dc2e90817db29d0825506158f1d5d6439fb7
   md5: 71546ecb7c830d277af20cac43a5bdd0
@@ -3231,19 +3206,6 @@ packages:
   license_family: BSD
   size: 232875
   timestamp: 1755953378112
-- conda: https://conda.anaconda.org/conda-forge/noarch/pybind11-3.0.2-pyh7a1b43c_0.conda
-  sha256: c2d16e61270efeea13102836e0f1d3f758fb093207fbda561290fa1951c6051f
-  md5: 44dff15b5d850481807888197b254b46
-  depends:
-  - python >=3.8
-  - pybind11-global ==3.0.2 *_0
-  - python
-  constrains:
-  - pybind11-abi ==11
-  license: BSD-3-Clause
-  license_family: BSD
-  size: 245509
-  timestamp: 1771365898778
 - conda: https://conda.anaconda.org/conda-forge/noarch/pybind11-abi-11-hc364b38_1.conda
   sha256: 9e7fe12f727acd2787fb5816b2049cef4604b7a00ad3e408c5e709c298ce8bf1
   md5: f0599959a2447c1e544e216bddf393fa
@@ -3264,19 +3226,6 @@ packages:
   license_family: BSD
   size: 228871
   timestamp: 1755953338243
-- conda: https://conda.anaconda.org/conda-forge/noarch/pybind11-global-3.0.2-pyhc7ab6ef_0.conda
-  sha256: b97f25f7856b96ae187c17801d2536ff86a968da12f579bbc318f2367e365a02
-  md5: 0c2d37c332453bd66b254bc71311fa30
-  depends:
-  - python >=3.8
-  - __unix
-  - python
-  constrains:
-  - pybind11-abi ==11
-  license: BSD-3-Clause
-  license_family: BSD
-  size: 241244
-  timestamp: 1771365839659
 - conda: https://conda.anaconda.org/conda-forge/noarch/pygments-2.19.2-pyhd8ed1ab_0.conda
   sha256: 5577623b9f6685ece2697c6eb7511b4c9ac5fb607c9babc2646c811b428fd46a
   md5: 6b6ece66ebcae2d5f326c77ef2c5a066
@@ -3342,6 +3291,65 @@ packages:
   license_family: BSD
   size: 6958
   timestamp: 1752805918820
+- conda: https://conda.anaconda.org/conda-forge/linux-64/pytorch-2.10.0-cuda129_mkl_py312_h9ac99b3_303.conda
+  sha256: c146329e9a08d69687daaf17e65a204a500b3ef466e44dd5c0f94bc42ab4c50c
+  md5: 4c500a714fa9e56a8c986c7f11b41fb6
+  depends:
+  - __cuda
+  - __glibc >=2.17,<3.0.a0
+  - _openmp_mutex * *_llvm
+  - _openmp_mutex >=4.5
+  - cuda-cudart >=12.9.79,<13.0a0
+  - cuda-cupti >=12.9.79,<13.0a0
+  - cuda-nvrtc >=12.9.86,<13.0a0
+  - cuda-nvtx >=12.9.79,<13.0a0
+  - cuda-version >=12.9,<13
+  - filelock
+  - fmt >=12.1.0,<12.2.0a0
+  - fsspec
+  - jinja2
+  - libabseil * cxx17*
+  - libabseil >=20260107.1,<20260108.0a0
+  - libblas * *mkl
+  - libcblas >=3.11.0,<4.0a0
+  - libcublas >=12.9.1.4,<13.0a0
+  - libcudnn >=9.10.2.21,<10.0a0
+  - libcudss >=0.7.1.4,<0.7.2.0a0
+  - libcufft >=11.4.1.4,<12.0a0
+  - libcufile >=1.14.1.1,<2.0a0
+  - libcurand >=10.3.10.19,<11.0a0
+  - libcusolver >=11.7.5.82,<12.0a0
+  - libcusparse >=12.5.10.65,<13.0a0
+  - libgcc >=14
+  - libmagma >=2.9.0,<2.9.1.0a0
+  - libprotobuf >=6.33.5,<6.33.6.0a0
+  - libstdcxx >=14
+  - libtorch 2.10.0 cuda129_mkl_hd6d2a1f_303
+  - libuv >=1.51.0,<2.0a0
+  - libzlib >=1.3.1,<2.0a0
+  - llvm-openmp >=22.1.0
+  - mkl >=2025.3.0,<2026.0a0
+  - mpmath <1.4
+  - nccl >=2.29.3.1,<3.0a0
+  - networkx
+  - numpy >=1.23,<3
+  - optree >=0.13.0
+  - pybind11 <3.0.2
+  - pybind11-abi 11
+  - python >=3.12,<3.13.0a0
+  - python_abi 3.12.* *_cp312
+  - setuptools
+  - sleef >=3.9.0,<4.0a0
+  - sympy >=1.13.3
+  - triton 3.6.0
+  - typing_extensions >=4.10.0
+  constrains:
+  - pytorch-gpu 2.10.0
+  - pytorch-cpu <0.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 24479674
+  timestamp: 1772315696423
 - conda: https://conda.anaconda.org/conda-forge/linux-64/pytorch-2.10.0-cuda130_mkl_py312_h3624e09_303.conda
   sha256: 0a606aead482916e57adb243eade46f4829928ff34ea683faf228611fcfc96a6
   md5: 2d5459f334486a9506524d74875e0c99
@@ -3401,64 +3409,6 @@ packages:
   license_family: BSD
   size: 24466097
   timestamp: 1772229035606
-- conda: https://conda.anaconda.org/conda-forge/linux-64/pytorch-2.9.1-cuda129_mkl_py312_h44d881b_305.conda
-  sha256: 25fd38c3ed1ad7f81d1aca6777285bc7f43128a76a7b633eac072b290a9028cd
-  md5: 74c902beae97716a101ec5a20bd24990
-  depends:
-  - __cuda
-  - __glibc >=2.17,<3.0.a0
-  - _openmp_mutex * *_llvm
-  - _openmp_mutex >=4.5
-  - cuda-cudart >=12.9.79,<13.0a0
-  - cuda-cupti >=12.9.79,<13.0a0
-  - cuda-nvrtc >=12.9.86,<13.0a0
-  - cuda-nvtx >=12.9.79,<13.0a0
-  - cuda-version >=12.9,<13
-  - cudnn >=9.10.2.21,<10.0a0
-  - filelock
-  - fmt >=12.1.0,<12.2.0a0
-  - fsspec
-  - jinja2
-  - libabseil * cxx17*
-  - libabseil >=20260107.0,<20260108.0a0
-  - libblas * *mkl
-  - libcblas >=3.11.0,<4.0a0
-  - libcublas >=12.9.1.4,<13.0a0
-  - libcudss >=0.7.1.4,<0.7.2.0a0
-  - libcufft >=11.4.1.4,<12.0a0
-  - libcufile >=1.14.1.1,<2.0a0
-  - libcurand >=10.3.10.19,<11.0a0
-  - libcusolver >=11.7.5.82,<12.0a0
-  - libcusparse >=12.5.10.65,<13.0a0
-  - libgcc >=14
-  - libmagma >=2.9.0,<2.9.1.0a0
-  - libprotobuf >=6.33.5,<6.33.6.0a0
-  - libstdcxx >=14
-  - libtorch 2.9.1 cuda129_mkl_hf3b6726_305
-  - libuv >=1.51.0,<2.0a0
-  - libzlib >=1.3.1,<2.0a0
-  - llvm-openmp >=21.1.8
-  - mkl >=2025.3.0,<2026.0a0
-  - nccl >=2.29.2.1,<3.0a0
-  - networkx
-  - numpy >=1.23,<3
-  - optree >=0.13.0
-  - pybind11
-  - pybind11-abi 11
-  - python >=3.12,<3.13.0a0
-  - python_abi 3.12.* *_cp312
-  - setuptools
-  - sleef >=3.9.0,<4.0a0
-  - sympy >=1.13.3
-  - triton 3.5.1
-  - typing_extensions >=4.10.0
-  constrains:
-  - pytorch-cpu <0.0a0
-  - pytorch-gpu 2.9.1
-  license: BSD-3-Clause
-  license_family: BSD
-  size: 25723524
-  timestamp: 1770372396410
 - conda: https://conda.anaconda.org/conda-forge/linux-64/pytorch-gpu-2.10.0-cuda129_mkl_h0d04637_303.conda
   sha256: 9807474ce5bbbf81e7a92dd724f38f0dffcfefe5494619c2e94f2df469553bf5
   md5: 1050dc8cf80cd0a9e63f361c12ee0e82
@@ -3468,15 +3418,6 @@ packages:
   license_family: BSD
   size: 53576
   timestamp: 1772317256452
-- conda: https://conda.anaconda.org/conda-forge/linux-64/pytorch-gpu-2.9.1-cuda129_mkl_h0d04637_305.conda
-  sha256: 481f73bba1d651f738c35669577dbbf202548af057f8f2c46a145053538225d2
-  md5: d51331d6ad4e30d71daf539124391eec
-  depends:
-  - pytorch 2.9.1 cuda*_mkl*305
-  license: BSD-3-Clause
-  license_family: BSD
-  size: 51428
-  timestamp: 1770372472742
 - conda: https://conda.anaconda.org/conda-forge/linux-64/pyyaml-6.0.3-py312h8a5da7c_1.conda
   sha256: cb142bfd92f6e55749365ddc244294fa7b64db6d08c45b018ff1c658907bfcbf
   md5: 15878599a87992e44c059731771591cb
@@ -3675,9 +3616,9 @@ packages:
   license: MPL-2.0 and MIT
   size: 94132
   timestamp: 1770153424136
-- conda: https://conda.anaconda.org/conda-forge/linux-64/triton-3.5.1-cuda129py312h811769c_0.conda
-  sha256: a7c3b16ccc3ae6534fd4ffcac640a97da069653184346aaae93b2666e2b8b409
-  md5: 3edceb734aaf38cef0cf862a542ea4a0
+- conda: https://conda.anaconda.org/conda-forge/linux-64/triton-3.6.0-cuda129py312h811769c_1.conda
+  sha256: e210e24b90002828b600ede41cc6715aa94a418c7eb76782ec5def489c071c9a
+  md5: 3a6d122ac38a1ec19d14cc34a1878bc0
   depends:
   - python
   - setuptools
@@ -3685,18 +3626,18 @@ packages:
   - cuda-cuobjdump
   - cuda-cudart
   - cuda-cupti
-  - cuda-version >=12.9,<13
+  - __glibc >=2.17,<3.0.a0
   - libstdcxx >=14
   - libgcc >=14
-  - __glibc >=2.17,<3.0.a0
-  - python_abi 3.12.* *_cp312
-  - libzlib >=1.3.1,<2.0a0
-  - zstd >=1.5.7,<1.6.0a0
+  - cuda-version >=12.9,<13
   - cuda-cupti >=12.9.79,<13.0a0
+  - libzlib >=1.3.1,<2.0a0
+  - python_abi 3.12.* *_cp312
+  - zstd >=1.5.7,<1.6.0a0
   license: MIT
   license_family: MIT
-  size: 223272287
-  timestamp: 1763015432556
+  size: 236000420
+  timestamp: 1771627574109
 - conda: https://conda.anaconda.org/conda-forge/linux-64/triton-3.6.0-cuda130py312hc6dca4b_1.conda
   sha256: ce4e86d0ce90327af082e5ed47e03c3e642313a3a6a80fbe31429d6992bbeb62
   md5: f2bd510a812ca68f1f2af01bc7328ead
@@ -3769,6 +3710,15 @@ packages:
   license: LicenseRef-Public-Domain
   size: 119135
   timestamp: 1767016325805
+- conda: https://conda.anaconda.org/conda-forge/linux-64/unzip-6.0-hb03c661_4.conda
+  sha256: 489ee14dcc1080e45d07531e89b1c690a8df68ca6a817ade536e6ef4cdc77b9e
+  md5: 7f58240fa4cd5b42607606333cf8b550
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=14
+  license: LicenseRef-BSD-like
+  size: 146901
+  timestamp: 1754913060109
 - conda: https://conda.anaconda.org/conda-forge/noarch/urllib3-2.6.3-pyhd8ed1ab_0.conda
   sha256: af641ca7ab0c64525a96fd9ad3081b0f5bcf5d1cbb091afb3f6ed5a9eee6111a
   md5: 9272daa869e03efe68833e3dc7a02130
