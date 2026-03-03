@@ -16,6 +16,7 @@ ripgrep = ">=15.1.0,<16"
 fd-find = ">=10.3.0,<11"
 aria2 = "*"
 zellij = ">=0.43.1,<0.44"
+unzip = ">=6.0,<7"
 
 huggingface_hub = ">=1.5.0,<2"
 modelscope = ">=1.34.0,<2"
@@ -25,8 +26,9 @@ modelscope = ">=1.34.0,<2"
 # CONDA_OVERRIDE_CUDA=12.9 pixi add cuda-version=12.9 cuda-toolkit=12.9.1 -p linux-64
 cuda-version = "12.9.*"
 cuda-toolkit = "12.9.1.*"
-# CONDA_OVERRIDE_CUDA=12.9 pixi add pytorch-gpu=2.9.1 -p linux-64
-pytorch-gpu = "2.9.1.*"
+# CONDA_OVERRIDE_CUDA=12.9 pixi add pytorch=2.10.0 -p linux-64
+# works with nightly vllm fo now
+pytorch = "2.10.0.*"
 
 # cu130
 [feature.cu130.system-requirements]
