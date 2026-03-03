@@ -5,3 +5,5 @@
 *.whl
 /vllm/
 /*.dist-info
+
+/models/
