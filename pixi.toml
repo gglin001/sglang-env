@@ -26,11 +26,11 @@ python = "3.12.*"
 uv = ">=0.8.13,<0.9"
 
 [feature.cu129.target.linux-64.dependencies]
-# CONDA_OVERRIDE_CUDA=12.9 pixi i
-# CONDA_OVERRIDE_CUDA=12.9 pixi add cuda-version=12.9 cuda-toolkit=12.9.1 -p linux-64
+# CONDA_OVERRIDE_CUDA=12.9 pixi i -e cu129
+# CONDA_OVERRIDE_CUDA=12.9 pixi add cuda-version=12.9 cuda-toolkit=12.9.1 -p linux-64 -f cu129
 cuda-version = "12.9.*"
 cuda-toolkit = "12.9.1.*"
-# CONDA_OVERRIDE_CUDA=12.9 pixi add pytorch=2.10.0 -p linux-64
+# CONDA_OVERRIDE_CUDA=12.9 pixi add pytorch=2.10.0 torchvision -p linux-64 -f cu129
 # works with nightly vllm fo now
 pytorch = "2.10.0.*"
 
@@ -48,8 +48,9 @@ uv = ">=0.8.13,<0.9"
 cuda-version = "13.0.*"
 # CONDA_OVERRIDE_CUDA=13.0 pixi add cuda-toolkit=13.0 -p linux-64 -f cu130
 cuda-toolkit = "13.0.*"
-# CONDA_OVERRIDE_CUDA=13.0 pixi add pytorch=2.10.0 -p linux-64 -f cu130
+# CONDA_OVERRIDE_CUDA=13.0 pixi add pytorch=2.10.0 torchvision -p linux-64 -f cu130
 pytorch = "2.10.0.*"
+torchvision = ">=0.25.0,<0.26"
 
 [environments]
 # default is implicit
