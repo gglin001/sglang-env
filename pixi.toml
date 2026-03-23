@@ -58,3 +58,7 @@ default = { features = ["cu129"] }
 # default = { features = ["cu130"] }
 cu129 = { features = ["cu129"], no-default-feature = true }
 cu130 = { features = ["cu130"], no-default-feature = true }
+
+[activation.env]
+# for cuda devices
+# CUDA_VISIBLE_DEVICES = "0"
