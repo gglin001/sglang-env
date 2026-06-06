@@ -16,6 +16,7 @@ unzip = ">=6.0,<7"
 huggingface_hub = ">=1.18.0,<2"
 modelscope = ">=1.37.1,<2"
 
+# cu129
 [feature.cu129.system-requirements]
 cuda = "12.9"
 
