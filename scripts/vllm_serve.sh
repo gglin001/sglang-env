@@ -2,6 +2,9 @@ export CUDA_VISIBLE_DEVICES="0"
 # export CUDA_VISIBLE_DEVICES="0,1"
 export CUDA_DEVICE_ORDER=PCI_BUS_ID
 
+# pixi shell -e cu130
+# pixi shell -e cu129
+
 args=(
   #
   third_party/FireRed-OCR
