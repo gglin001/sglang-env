@@ -22,3 +22,6 @@ uv pip install --system vllm-0.22.1+cu129-cp38-abi3-manylinux_2_28_x86_64.whl
 # curl -O -L https://wheels.vllm.ai/fa27d4e9cf3c8d8a5a143f38c346b27c02b2c2e3/vllm-0.22.1rc1.dev237%2Bgfa27d4e9c.cu129-cp38-abi3-manylinux_2_28_x86_64.whl
 
 for file in *%2B*; do mv -n -- "$file" "${file//%2B/+}"; done
+
+# pixi run -e cu130 uv pip install --system vllm-*.whl
+# pixi run -e cu129 uv pip install --system vllm-*cu129*.whl
