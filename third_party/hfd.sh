@@ -19,4 +19,7 @@ hfd.sh datalab-to/chandra-ocr-2
 hfd.sh PaddlePaddle/PaddleOCR-VL-1.6
 # https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6
 
+hfd.sh rednote-hilab/dots.mocr
+# https://huggingface.co/rednote-hilab/dots.mocr
+
 popd
