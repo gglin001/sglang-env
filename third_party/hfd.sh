@@ -16,4 +16,7 @@ hfd.sh FireRedTeam/FireRed-OCR
 hfd.sh datalab-to/chandra-ocr-2
 # https://huggingface.co/datalab-to/chandra-ocr-2
 
+hfd.sh PaddlePaddle/PaddleOCR-VL-1.6
+# https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6
+
 popd
