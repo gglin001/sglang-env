@@ -2,6 +2,7 @@
 set -euo pipefail
 
 export CUDA_VISIBLE_DEVICES="0"
+# export CUDA_VISIBLE_DEVICES="1"
 # export CUDA_VISIBLE_DEVICES="0,1"
 export CUDA_DEVICE_ORDER=PCI_BUS_ID
 
@@ -22,6 +23,9 @@ args=(
   #
   third_party/FireRed-OCR
   --served-model-name OCR
+  #
+  # third_party/chandra-ocr-2
+  # --served-model-name OCR
   #
   # --load-format dummy
   # --enforce-eager
