@@ -31,9 +31,11 @@ cuda-version = "12.9.*"
 cuda-toolkit = "12.9.2.*"
 # pixi add nomkl -p linux-64 -f cu129
 nomkl = ">=1.0,<2"
-# CONDA_OVERRIDE_CUDA=12.9 pixi add "pytorch[version='==2.10.0', build='*cuda129_generic*']" torchvision -p linux-64 -f cu129
-pytorch = { version = "==2.10.0", build = "*cuda129_generic*" }
-torchvision = ">=0.26.0,<0.27"
+# CONDA_OVERRIDE_CUDA=12.9 pixi add "pytorch[version='==2.11.0', build='*cuda129_generic*']" -p linux-64 -f cu129
+pytorch = { version = "==2.11.0", build = "*cuda129_generic*" }
+[feature.cu129.target.linux-64.pypi-dependencies]
+# CONDA_OVERRIDE_CUDA=12.9 pixi add torchvision --pypi -p linux-64 -f cu129
+torchvision = ">=0.26.0, <0.27"
 
 # cu130
 [feature.cu130.system-requirements]
