@@ -8,6 +8,7 @@ curl -L -O https://github.com/vllm-project/vllm/releases/download/v0.22.1/vllm-0
 
 # pixi shell -e cu130
 # pixi shell -e cu129
+
 # uv pip install --system vllm-0.22.1-cp38-abi3-manylinux_2_28_x86_64.whl
 # uv pip install --system vllm-0.22.1+cu129-cp38-abi3-manylinux_2_28_x86_64.whl
 # optional
@@ -24,9 +25,9 @@ curl -L -O https://github.com/vllm-project/vllm/releases/download/v0.22.1/vllm-0
 
 for file in *%2B*; do mv -n -- "$file" "${file//%2B/+}"; done
 
-# pixi run -e cu130 uv pip install --system vllm-*.whl
-# pixi run -e cu129 uv pip install --system vllm-*cu129*.whl
+# pixi shell -e cu130
+# pixi shell -e cu129
 
+# uv pip install --system vllm-*.whl
+# uv pip install --system vllm-*cu129*.whl
 # uv pip ls
-# pixi run -e cu130 uv pip ls
-# pixi run -e cu129 uv pip ls
