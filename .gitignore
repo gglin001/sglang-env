@@ -6,5 +6,4 @@
 /vllm/
 /*.dist-info
 
-/models/
 *.log
