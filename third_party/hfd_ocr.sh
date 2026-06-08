@@ -28,4 +28,10 @@ hfd.sh rednote-hilab/dots.mocr-svg
 hfd.sh tencent/HunyuanOCR
 # https://huggingface.co/tencent/HunyuanOCR
 
+hfd.sh infly/Infinity-Parser2-Pro
+# https://huggingface.co/infly/Infinity-Parser2-Pro
+
+hfd.sh infly/Infinity-Parser2-Flash
+# https://huggingface.co/infly/Infinity-Parser2-Flash
+
 popd
