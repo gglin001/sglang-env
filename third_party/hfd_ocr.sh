@@ -25,4 +25,7 @@ hfd.sh rednote-hilab/dots.mocr
 hfd.sh rednote-hilab/dots.mocr-svg
 # https://huggingface.co/rednote-hilab/dots.mocr-svg
 
+hfd.sh tencent/HunyuanOCR
+# https://huggingface.co/tencent/HunyuanOCR
+
 popd

@@ -20,11 +20,14 @@ args=(
   # third_party/FireRed-OCR
   # --served-model-name FireRedTeam/FireRed-OCR-2B
   #
-  # third_party/chandra-ocr-2
-  # --served-model-name datalab-to/chandra-ocr-2
+  third_party/chandra-ocr-2
+  --served-model-name datalab-to/chandra-ocr-2
   #
-  third_party/dots.mocr
-  --served-model-name rednote-hilab/dots.mocr
+  # third_party/dots.mocr
+  # --served-model-name rednote-hilab/dots.mocr
+  #
+  # third_party/dots.mocr-svg
+  # --served-model-name rednote-hilab/dots.mocr-svg
   #
   # --load-format dummy
   # --enforce-eager

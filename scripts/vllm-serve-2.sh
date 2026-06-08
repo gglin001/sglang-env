@@ -26,6 +26,9 @@ args=(
   third_party/dots.mocr
   --served-model-name rednote-hilab/dots.mocr
   #
+  # third_party/dots.mocr-svg
+  # --served-model-name rednote-hilab/dots.mocr-svg
+  #
   # --load-format dummy
   # --enforce-eager
   #
