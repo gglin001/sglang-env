@@ -22,4 +22,7 @@ hfd.sh PaddlePaddle/PaddleOCR-VL-1.6
 hfd.sh rednote-hilab/dots.mocr
 # https://huggingface.co/rednote-hilab/dots.mocr
 
+hfd.sh rednote-hilab/dots.mocr-svg
+# https://huggingface.co/rednote-hilab/dots.mocr-svg
+
 popd
