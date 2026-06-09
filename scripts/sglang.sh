@@ -11,17 +11,16 @@
 # uv pip install --force-reinstall sglang-kernel --index-url https://docs.sglang.ai/whl/cu129/
 # uv pip install --force-reinstall sgl-deep-gemm --index-url https://docs.sglang.ai/whl/cu129/ --no-deps
 
-https://docs.sglang.ai/whl/cu129/
 https://docs.sglang.ai/whl/cu130/
+https://docs.sglang.ai/whl/cu129/
 
-# pixi shell -e cu130
-pixi shell -e cu129
-
+pixi shell -e cu130
 # cu130
 uv pip install --system sglang --index-url https://docs.sglang.ai/whl/cu130/
 uv pip install --system --force-reinstall sglang-kernel --index-url https://docs.sglang.ai/whl/cu130/
 uv pip install --system --force-reinstall sgl-deep-gemm --index-url https://docs.sglang.ai/whl/cu130/ --no-deps
 
+pixi shell -e cu129
 # cu129
 uv pip install --system sglang --index-url https://docs.sglang.ai/whl/cu129/
 uv pip install --system --force-reinstall sglang-kernel --index-url https://docs.sglang.ai/whl/cu129/
