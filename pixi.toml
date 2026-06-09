@@ -35,6 +35,8 @@ pytorch = { version = "==2.11.0", build = "*cuda129_generic*" }
 # TODO: use conda version
 # CONDA_OVERRIDE_CUDA=12.9 pixi add torchvision --pypi -p linux-64 -f cu129 --index https://download.pytorch.org/whl/cu129
 torchvision = { version = "*", index = "https://download.pytorch.org/whl/cu129" }
+# CONDA_OVERRIDE_CUDA=12.9 pixi add torchaudio --pypi -p linux-64 -f cu129 --index https://download.pytorch.org/whl/cu129
+torchaudio = { version = "*", index = "https://download.pytorch.org/whl/cu129" }
 
 # cu130
 [feature.cu130.system-requirements]
@@ -54,6 +56,8 @@ pytorch = { version = "==2.11.0", build = "*cuda130_generic*" }
 [feature.cu130.target.linux-64.pypi-dependencies]
 # CONDA_OVERRIDE_CUDA=13.0 pixi add torchvision --pypi -p linux-64 -f cu130 --index https://download.pytorch.org/whl/cu130
 torchvision = { version = "*", index = "https://download.pytorch.org/whl/cu130" }
+# CONDA_OVERRIDE_CUDA=13.0 pixi add torchaudio --pypi -p linux-64 -f cu130 --index https://download.pytorch.org/whl/cu130
+torchaudio = { version = "*", index = "https://download.pytorch.org/whl/cu130" }
 
 [environments]
 # default is implicit
