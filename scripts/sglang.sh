@@ -1,33 +1,28 @@
-# https://github.com/vllm-project/vllm
-# https://github.com/vllm-project/vllm/releases
+# https://github.com/sgl-project/sglang
+# https://github.com/sgl-project/sglang/releases
+# https://github.com/sgl-project/whl
+# https://github.com/sgl-project/whl/releases
+# https://docs.sglang.io/docs/get-star˝ted/install
+
+# pip install --upgrade pip
+# pip install uv
+# uv pip install sglang
+# uv pip install --force-reinstall  torch==2.11.0 torchaudio==2.11.0 torchvision --index-url https://download.pytorch.org/whl/cu129
+# uv pip install --force-reinstall sglang-kernel --index-url https://docs.sglang.ai/whl/cu129/
+# uv pip install --force-reinstall sgl-deep-gemm --index-url https://docs.sglang.ai/whl/cu129/ --no-deps
+
+https://docs.sglang.ai/whl/cu129/
+https://docs.sglang.ai/whl/cu130/
+
+# pixi shell -e cu130
+pixi shell -e cu129
 
 # cu130
-curl -L -O https://github.com/vllm-project/vllm/releases/download/v0.22.1/vllm-0.22.1-cp38-abi3-manylinux_2_28_x86_64.whl
+uv pip install --system sglang --index-url https://docs.sglang.ai/whl/cu130/
+uv pip install --system --force-reinstall sglang-kernel --index-url https://docs.sglang.ai/whl/cu130/
+uv pip install --system --force-reinstall sgl-deep-gemm --index-url https://docs.sglang.ai/whl/cu130/ --no-deps
+
 # cu129
-curl -L -O https://github.com/vllm-project/vllm/releases/download/v0.22.1/vllm-0.22.1+cu129-cp38-abi3-manylinux_2_28_x86_64.whl
-
-# pixi shell -e cu130
-# pixi shell -e cu129
-
-# uv pip install --system vllm-0.22.1-cp38-abi3-manylinux_2_28_x86_64.whl
-# uv pip install --system vllm-0.22.1+cu129-cp38-abi3-manylinux_2_28_x86_64.whl
-# optional
-# uv pip install --system "transformers>=5.0.0"
-
-# BASE_URL="https://wheels.vllm.ai/nightly/"
-# BASE_URL="https://wheels.vllm.ai/nightly/cu129/vllm"
-# BASE_URL="https://wheels.vllm.ai/nightly/cu130/vllm"
-
-# cu130 eg:
-# curl -O -L https://wheels.vllm.ai/fa27d4e9cf3c8d8a5a143f38c346b27c02b2c2e3/vllm-0.22.1rc1.dev237%2Bgfa27d4e9c-cp38-abi3-manylinux_2_28_x86_64.whl
-# cu129 eg:
-# curl -O -L https://wheels.vllm.ai/fa27d4e9cf3c8d8a5a143f38c346b27c02b2c2e3/vllm-0.22.1rc1.dev237%2Bgfa27d4e9c.cu129-cp38-abi3-manylinux_2_28_x86_64.whl
-
-for file in *%2B*; do mv -n -- "$file" "${file//%2B/+}"; done
-
-# pixi shell -e cu130
-# pixi shell -e cu129
-
-# uv pip install --system vllm-*.whl
-# uv pip install --system vllm-*cu129*.whl
-# uv pip ls
+uv pip install --system sglang --index-url https://docs.sglang.ai/whl/cu129/
+uv pip install --system --force-reinstall sglang-kernel --index-url https://docs.sglang.ai/whl/cu129/
+uv pip install --system --force-reinstall sgl-deep-gemm --index-url https://docs.sglang.ai/whl/cu129/ --no-deps
