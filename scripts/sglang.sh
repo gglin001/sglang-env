@@ -25,3 +25,8 @@ pixi shell -e cu129
 uv pip install --system sglang --index-url https://docs.sglang.ai/whl/cu129/
 uv pip install --system --force-reinstall sglang-kernel --index-url https://docs.sglang.ai/whl/cu129/
 uv pip install --system --force-reinstall sgl-deep-gemm --index-url https://docs.sglang.ai/whl/cu129/ --no-deps
+
+# down wheel
+uv pip install --system sglang -v --dry-run 2>&1 | grep 'sglang-'
+uv pip install --system sglang --index-url https://docs.sglang.ai/whl/cu129/ \
+  -v --dry-run 2>&1 | grep 'sglang-'
